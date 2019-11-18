@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0EAA41512382B34000BB9124 /* GestureInstructions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EAA414F2382B34000BB9124 /* GestureInstructions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EAA41592382B3D000BB9124 /* GestureInstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAA41582382B3D000BB9124 /* GestureInstructor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EAA414C2382B34000BB9124 /* GestureInstructions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GestureInstructions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EAA414F2382B34000BB9124 /* GestureInstructions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureInstructions.h; sourceTree = "<group>"; };
 		0EAA41502382B34000BB9124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EAA41582382B3D000BB9124 /* GestureInstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureInstructor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +48,19 @@
 		0EAA414E2382B34000BB9124 /* GestureInstructions */ = {
 			isa = PBXGroup;
 			children = (
+				0EAA41572382B38C00BB9124 /* Source */,
 				0EAA414F2382B34000BB9124 /* GestureInstructions.h */,
 				0EAA41502382B34000BB9124 /* Info.plist */,
 			);
 			path = GestureInstructions;
+			sourceTree = "<group>";
+		};
+		0EAA41572382B38C00BB9124 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0EAA41582382B3D000BB9124 /* GestureInstructor.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +106,7 @@
 				TargetAttributes = {
 					0EAA414B2382B34000BB9124 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -131,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAA41592382B3D000BB9124 /* GestureInstructor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +273,7 @@
 		0EAA41552382B34000BB9124 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5V5EUT3ZXJ;
@@ -277,6 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.rinat-enikeev.GestureInstructions";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +300,7 @@
 		0EAA41562382B34000BB9124 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5V5EUT3ZXJ;
