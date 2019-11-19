@@ -395,7 +395,7 @@ private extension GestureInstructor {
         
         var views = [GIView]()
         for _ in 0..<viewCount {
-            let view = GIView()
+            let view = GIView(frame: .zero)
             view.image = GestureInstructor.appearance.tapImage
             views.append(view)
         }
