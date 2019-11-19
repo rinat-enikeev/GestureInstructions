@@ -20,19 +20,22 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VNY-jP-IjO">
-                                <rect key="frame" x="154.5" y="617" width="66" height="30"/>
-                                <state key="normal" title="Swipe Up"/>
+                                <rect key="frame" x="168.5" y="617" width="38" height="30"/>
+                                <state key="normal" title="Show"/>
                                 <connections>
-                                    <action selector="swipeUpButtonTouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="eVg-Na-LNB"/>
+                                    <action selector="showButtonTouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="eVg-Na-LNB"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="VNY-jP-IjO" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="mYP-Bx-1mX"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="VNY-jP-IjO" secondAttribute="bottom" constant="20" id="smA-wP-pvc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="showButton" destination="VNY-jP-IjO" id="5rn-rf-j4A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

@@ -383,10 +383,14 @@ private extension GestureInstructor {
             viewCount = 1
             start = [CGPoint(x: horizontalCenter, y: round(screenHeight * 0.2))]
             stop = [CGPoint(x: horizontalCenter, y: round(screenHeight * 0.8))]
-        default:
+        case .customSwipe:
             viewCount = 1
             start = startPoistions
             stop = endPoistions
+        default:
+            viewCount = 1
+            start = startPoistions
+            stop = startPoistions
         }
         
         let tapColor = GestureInstructor.appearance.tapColor
