@@ -40,20 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00980F19297CBC9B28EE674BC3E322C1 /* Pods_GestureInstructions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GestureInstructions_Example.framework; path = "Pods-GestureInstructions_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00980F19297CBC9B28EE674BC3E322C1 /* Pods_GestureInstructions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GestureInstructions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2392DFAACBA392FE16765C8BFEE8132C /* UIViewController+GestureInstructor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+GestureInstructor.swift"; path = "GestureInstructions/Classes/UIViewController+GestureInstructor.swift"; sourceTree = "<group>"; };
 		24A0AA93280180D58E5810F14F74AE15 /* Pods-GestureInstructions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GestureInstructions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3D2CC8CDF67BAE90FF26D0EDF31CBA3B /* GIBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIBackgroundView.swift; path = GestureInstructions/Classes/GIBackgroundView.swift; sourceTree = "<group>"; };
 		4300F0388EEC798597AE753518AD5372 /* Pods-GestureInstructions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GestureInstructions_Example-Info.plist"; sourceTree = "<group>"; };
 		4A18C98F9A0F2684A2EE7BAA1B4EC498 /* GestureInstructions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GestureInstructions.xcconfig; sourceTree = "<group>"; };
-		66E6452E2A12ED441DD4EE0CA2196EEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		66E6452E2A12ED441DD4EE0CA2196EEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		685FB738481308569DB594DB43F34FB0 /* GestureInstructions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GestureInstructions-Info.plist"; sourceTree = "<group>"; };
 		69BBC4D99B6F431A885F9A26515D820F /* Pods-GestureInstructions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GestureInstructions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6B697855FD2329C9E1C8E69D0F1D9E89 /* GestureInstructions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GestureInstructions-prefix.pch"; sourceTree = "<group>"; };
 		6FAD3602BF062C00DE709D3621BF839C /* Pods-GestureInstructions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GestureInstructions_Example.modulemap"; sourceTree = "<group>"; };
 		72738BAF40E05D3C2FFE25D070BC2C58 /* Pods-GestureInstructions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GestureInstructions_Tests-umbrella.h"; sourceTree = "<group>"; };
-		73761A69531502821B326C5AC6A51512 /* Pods_GestureInstructions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GestureInstructions_Tests.framework; path = "Pods-GestureInstructions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73761A69531502821B326C5AC6A51512 /* Pods_GestureInstructions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GestureInstructions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		793E773B245FC18B9E7ED58679E7D33D /* Pods-GestureInstructions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GestureInstructions_Tests-dummy.m"; sourceTree = "<group>"; };
 		7B532A7EE1CBC5F1CADA4A5B6535B6FC /* Pods-GestureInstructions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GestureInstructions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E095D197C2757DC13A926D54ADF9CA4 /* Pods-GestureInstructions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GestureInstructions_Tests.modulemap"; sourceTree = "<group>"; };
@@ -61,8 +61,8 @@
 		84A807E8B9760C4094807D52257AA8C4 /* GestureInstructions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GestureInstructions-dummy.m"; sourceTree = "<group>"; };
 		854FC31315F6493FD24720DEE7628EC1 /* Pods-GestureInstructions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GestureInstructions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		97EE187590D3E80EB3E2D29B01742155 /* Pods-GestureInstructions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GestureInstructions_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9B36CCC31F3F11426D1BCCFD8B188D27 /* GestureInstructions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GestureInstructions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B36CCC31F3F11426D1BCCFD8B188D27 /* GestureInstructions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GestureInstructions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A675A8AE252FED40A7FDFF111D09F73F /* GestureInstructions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GestureInstructions.modulemap; sourceTree = "<group>"; };
 		A8860C8A47CD7FEB8C17C6FC5EEB8EEB /* Pods-GestureInstructions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GestureInstructions_Tests-Info.plist"; sourceTree = "<group>"; };
 		B3296F1CBF781E8689B2F192709112CE /* GestureInstructions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GestureInstructions-umbrella.h"; sourceTree = "<group>"; };
@@ -71,9 +71,9 @@
 		C6F0E471ABC5F6E91393F29CC9C25AA8 /* Pods-GestureInstructions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GestureInstructions_Example-umbrella.h"; sourceTree = "<group>"; };
 		C9D2B0F213A47A2E3FD5D343A4D6A32A /* Pods-GestureInstructions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GestureInstructions_Example-dummy.m"; sourceTree = "<group>"; };
 		D98575A46043B99099867FE7495CABCA /* Pods-GestureInstructions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GestureInstructions_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E82E1348431C68A52519DA46DB258D9B /* GestureInstructions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GestureInstructions.framework; path = GestureInstructions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82E1348431C68A52519DA46DB258D9B /* GestureInstructions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GestureInstructions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E928820DF9A86B5F6DB0A382FF21089D /* Pods-GestureInstructions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GestureInstructions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7EF2AC58CBFA4143323170831ED0C97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F7EF2AC58CBFA4143323170831ED0C97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FA8E8B55A5B415F0479049BA9A1D6311 /* GIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIView.swift; path = GestureInstructions/Classes/GIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -324,6 +324,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					860DA7A38BF9307693F392B5FBB86200 = {
+						LastSwiftMigration = 1120;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -637,8 +642,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -669,7 +673,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -702,7 +706,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
