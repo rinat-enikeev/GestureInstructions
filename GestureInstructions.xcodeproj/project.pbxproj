@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0EAA41512382B34000BB9124 /* GestureInstructions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EAA414F2382B34000BB9124 /* GestureInstructions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EAA41592382B3D000BB9124 /* GestureInstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAA41582382B3D000BB9124 /* GestureInstructor.swift */; };
+		0EAA415D238392B200BB9124 /* GIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAA415C238392B200BB9124 /* GIView.swift */; };
+		0EAA415F2383939700BB9124 /* GIBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAA415E2383939600BB9124 /* GIBackgroundView.swift */; };
+		0EAA41612383B70500BB9124 /* UIViewController+GestureInstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAA41602383B70500BB9124 /* UIViewController+GestureInstructor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +19,9 @@
 		0EAA414F2382B34000BB9124 /* GestureInstructions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureInstructions.h; sourceTree = "<group>"; };
 		0EAA41502382B34000BB9124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EAA41582382B3D000BB9124 /* GestureInstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureInstructor.swift; sourceTree = "<group>"; };
+		0EAA415C238392B200BB9124 /* GIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIView.swift; sourceTree = "<group>"; };
+		0EAA415E2383939600BB9124 /* GIBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIBackgroundView.swift; sourceTree = "<group>"; };
+		0EAA41602383B70500BB9124 /* UIViewController+GestureInstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+GestureInstructor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				0EAA41582382B3D000BB9124 /* GestureInstructor.swift */,
+				0EAA415C238392B200BB9124 /* GIView.swift */,
+				0EAA415E2383939600BB9124 /* GIBackgroundView.swift */,
+				0EAA41602383B70500BB9124 /* UIViewController+GestureInstructor.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -143,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAA415D238392B200BB9124 /* GIView.swift in Sources */,
+				0EAA415F2383939700BB9124 /* GIBackgroundView.swift in Sources */,
 				0EAA41592382B3D000BB9124 /* GestureInstructor.swift in Sources */,
+				0EAA41612383B70500BB9124 /* UIViewController+GestureInstructor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
