@@ -1,0 +1,22 @@
+{
+  "name": "GestureInstructions",
+  "version": "0.1.0",
+  "summary": "A short description of GestureInstructions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rinat-enikeev/GestureInstructions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rinat-enikeev": "rinat.enikeev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rinat-enikeev/GestureInstructions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "GestureInstructions/Classes/**/*"
+}

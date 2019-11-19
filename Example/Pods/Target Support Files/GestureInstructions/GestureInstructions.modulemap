@@ -1,0 +1,6 @@
+framework module GestureInstructions {
+  umbrella header "GestureInstructions-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - GestureInstructions (0.1.0)
+
+DEPENDENCIES:
+  - GestureInstructions (from `../`)
+
+EXTERNAL SOURCES:
+  GestureInstructions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GestureInstructions: 296ae9985a78161618d57fa77972834b45685fb7
+
+PODFILE CHECKSUM: eff368c17a699969a52c7dd659e4e63a3be89e0b
+
+COCOAPODS: 1.8.4

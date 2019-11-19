@@ -11,7 +11,7 @@ import ObjectiveC
 
 private var AssociatedObjectHandle: UInt8 = 0
 
-extension UIViewController {
+public extension UIViewController {
     var gestureInstructor: GestureInstructor {
         get {
             if let gi = objc_getAssociatedObject(self, &AssociatedObjectHandle) as? GestureInstructor {

@@ -1,0 +1,12 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'GestureInstructions_Example' do
+  pod 'GestureInstructions', :path => '../'
+
+  target 'GestureInstructions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

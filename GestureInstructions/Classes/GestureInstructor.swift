@@ -36,9 +36,9 @@ public enum GIOptions {
 public class GIAppearance {
     public static let shared = GIAppearance()
     
-    public var backgroundColor: UIColor?
-    public var textColor: UIColor?
-    public var tapColor: UIColor?
+    public var backgroundColor: UIColor = UIColor(white: 0.0, alpha: 0.7)
+    public var textColor: UIColor = UIColor.darkGray
+    public var tapColor: UIColor = UIColor.blue
     public var tapImage: UIImage?
 }
 
@@ -84,7 +84,7 @@ public class GestureInstructor {
         self.viewController = viewController
     }
     
-    public func show(_ mode: GIOptions, targetView: UIView? = nil, startPoint: CGPoint? = nil, endPoint: CGPoint? = nil, attributedText: NSAttributedString? = nil, after delay: TimeInterval, completion: @escaping (Bool) -> Void) {
+    public func show(_ mode: GIOptions, targetView: UIView? = nil, startPoint: CGPoint? = nil, endPoint: CGPoint? = nil, attributedText: NSAttributedString? = nil, after delay: TimeInterval, completion: ((Bool) -> Void)? = nil) {
         guard mode != .undefined else { return }
         var start: CGPoint
         if startPoint == nil, let targetView = targetView {
@@ -131,8 +131,8 @@ extension GestureInstructor: GIDelegate {
         return completion == nil
     }
     
-    func userDidTouch(view: UIView, event: UIEvent) {
-        if let lastEventDate = lastEventDate, lastEventDate.timeIntervalSinceNow > 0.15 {
+    func userDidTouch(view: UIView?, event: UIEvent?) {
+        if let lastEventDate = lastEventDate, abs(lastEventDate.timeIntervalSinceNow) > 0.15 {
             self.lastEventDate = Date()
         } else if lastEventDate == nil {
             self.lastEventDate = Date()
@@ -153,8 +153,6 @@ extension GestureInstructor: GIDelegate {
                 }
                 self.isFadingOut = false
             }
-        } else if idleTimerDelay > 0 {
-            dismissThenResume()
         } else {
             dismiss()
         }
@@ -163,18 +161,6 @@ extension GestureInstructor: GIDelegate {
 
 // MARK: - Private
 private extension GestureInstructor {
-    
-    private func dismissThenResume() {
-        let mode = self.mode
-        
-        dismiss { _ in
-            if mode != .undefined {
-                self.mode = mode
-                self.isAnimating = true
-                self.startTimer()
-            }
-        }
-    }
     
     private func dismiss(completion: ((Bool) -> Void)? = nil) {
         isFadingOut = false
@@ -208,7 +194,7 @@ private extension GestureInstructor {
         if viewController.presentedViewController != nil {
             startTimer()
             return
-        } else if !(viewController == viewController.navigationController?.topViewController) {
+        } else if let top = viewController.navigationController?.topViewController,  viewController != top {
             dismiss()
         }
         
@@ -243,7 +229,7 @@ private extension GestureInstructor {
         
         // fade in background
         UIView.animate(withDuration: GIView.duration, delay: delay, options: animationOptions, animations: {
-            self.backgroundView.backgroundColor = GestureInstructor.appearance.backgroundColor ?? UIColor(white: 0.2, alpha: 0.8)
+            self.backgroundView.backgroundColor = GestureInstructor.appearance.backgroundColor
         }) { _ in
             self.isFadingIn = false
             viewController.view.tintAdjustmentMode = .dimmed
@@ -403,7 +389,7 @@ private extension GestureInstructor {
             stop = endPoistions
         }
         
-        let tapColor = GestureInstructor.appearance.tapColor ?? .white
+        let tapColor = GestureInstructor.appearance.tapColor
         GIView.appearance().backgroundColor = tapColor.withAlphaComponent(0.7)
         GIView.appearance().tintColor = tapColor
         
