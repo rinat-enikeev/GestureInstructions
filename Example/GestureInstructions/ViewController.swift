@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        GestureInstructor.appearance.tapImage = UIImage(named: "hand")
     }
 
     @IBAction func showButtonTouchUpInside(_ sender: Any) {
