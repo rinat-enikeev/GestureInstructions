@@ -17,6 +17,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         GestureInstructor.appearance.tapImage = UIImage(named: "hand")
     }
+    
+    override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.willTransition(to: newCollection, with: coordinator)
+        gestureInstructor.dismissThenResume()
+    }
 
     @IBAction func showButtonTouchUpInside(_ sender: Any) {
         let controller = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
