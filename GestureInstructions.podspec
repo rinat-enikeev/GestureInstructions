@@ -12,7 +12,8 @@ Framework to show gesture animations on top of the viewController.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rinat-enikeev' => 'rinat.enikeev@gmail.com' }
   s.source           = { :git => 'https://github.com/rinat-enikeev/GestureInstructions.git', :tag => s.version.to_s }
-
+  
+  spec.swift_version = '5.0'
   s.ios.deployment_target = '10.0'
   s.source_files = 'GestureInstructions/Classes/**/*'
 end
