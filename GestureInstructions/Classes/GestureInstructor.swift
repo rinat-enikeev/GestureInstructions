@@ -123,6 +123,18 @@ public class GestureInstructor {
             self.startTimer()
         }
     }
+    
+    public func dismissThenResume() {
+        let mode = self.mode
+        
+        dismiss { _ in
+            if mode != .undefined {
+                self.mode = mode
+                self.isAnimating = true
+                self.startTimer()
+            }
+        }
+    }
 }
 
 // MARK: - GIDelegate
