@@ -377,12 +377,12 @@ private extension GestureInstructor {
             stop = [CGPoint(x: horizontalCenter, y: round(screenHeight * 0.15))]
         case .swipeLeft:
             viewCount = 1
-            start = [CGPoint(x: horizontalCenter, y: round(screenHeight * 0.8))]
-            stop = [CGPoint(x: horizontalCenter, y: round(screenHeight * 0.2))]
+            start = [CGPoint(x: screenWidth * 0.8, y: round(screenHeight / 2.0))]
+            stop = [CGPoint(x: screenWidth * 0.2, y: round(screenHeight / 2.0))]
         case .swipeRight:
             viewCount = 1
-            start = [CGPoint(x: horizontalCenter, y: round(screenHeight * 0.2))]
-            stop = [CGPoint(x: horizontalCenter, y: round(screenHeight * 0.8))]
+            start = [CGPoint(x: screenWidth * 0.2, y: round(screenHeight / 2.0))]
+            stop = [CGPoint(x: screenWidth * 0.8, y: round(screenHeight / 2.0))]
         case .customSwipe:
             viewCount = 1
             start = startPoistions
