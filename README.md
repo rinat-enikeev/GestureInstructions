@@ -20,6 +20,12 @@ it, simply add the following line to your Podfile:
 pod 'GestureInstructions'
 ```
 
+## Credits
+
+Hand icon by [Zach Blevins](https://dribbble.com/shots/1904249-Handy-Gestures).
+
+Objective-C implementation by Pedro Almeida. 
+
 ## Author
 
 rinat-enikeev, rinat.enikeev@gmail.com
