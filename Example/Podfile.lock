@@ -1,5 +1,5 @@
 PODS:
-  - GestureInstructions (0.1.0)
+  - GestureInstructions (0.0.1)
 
 DEPENDENCIES:
   - GestureInstructions (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GestureInstructions: 296ae9985a78161618d57fa77972834b45685fb7
+  GestureInstructions: cb1824d4906108124222e0b607e02ba5b03985b7
 
 PODFILE CHECKSUM: eff368c17a699969a52c7dd659e4e63a3be89e0b
 

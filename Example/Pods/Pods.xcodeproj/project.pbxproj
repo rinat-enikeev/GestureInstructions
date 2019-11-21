@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10B37311947BA520B7BB96B38CA0CAD7 /* GestureInstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26272EF0DBE1EC79D0DE9AF9B715530F /* GestureInstructor.swift */; };
 		1CB5C8AC77E046B15A59884250411E25 /* Pods-GestureInstructions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F0E471ABC5F6E91393F29CC9C25AA8 /* Pods-GestureInstructions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3797FE5CB2FE28361860E864E3ECD056 /* GestureInstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B32BF51343FE0A60E2EEEF06DD4E3 /* GestureInstructor.swift */; };
 		37D9B9C511DF098A183D0BF7C6DF19EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		39F99430175CA490E4843D5BD43C0B99 /* GIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E8B55A5B415F0479049BA9A1D6311 /* GIView.swift */; };
-		41399819B7D6D83E79CFEB011705B488 /* GestureInstructions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3296F1CBF781E8689B2F192709112CE /* GestureInstructions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41399819B7D6D83E79CFEB011705B488 /* GestureInstructions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C532585C4C8DB82FAA52060EFBCDDA11 /* GestureInstructions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42387942A5F74F272A8A93F54073775D /* Pods-GestureInstructions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D2B0F213A47A2E3FD5D343A4D6A32A /* Pods-GestureInstructions_Example-dummy.m */; };
 		54FC3550BF120A59E38DCD91B92837CA /* Pods-GestureInstructions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72738BAF40E05D3C2FFE25D070BC2C58 /* Pods-GestureInstructions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83681F4830C638237EF485F3C8C83C38 /* GIBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CC8CDF67BAE90FF26D0EDF31CBA3B /* GIBackgroundView.swift */; };
 		9B341EED082DE1869AE861DBA7CA32D0 /* Pods-GestureInstructions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E773B245FC18B9E7ED58679E7D33D /* Pods-GestureInstructions_Tests-dummy.m */; };
+		AEDF92FA37B6EACE57CC43BDCCD0F1CC /* UIViewController+GestureInstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F54C77E297183404AE6FA2783B37F4 /* UIViewController+GestureInstructor.swift */; };
 		B831B83FE62400D0618EE9145EDF1F28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C4E7E676D3179ABDC7E2A801C3956D32 /* GestureInstructions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A807E8B9760C4094807D52257AA8C4 /* GestureInstructions-dummy.m */; };
+		C4E7E676D3179ABDC7E2A801C3956D32 /* GestureInstructions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA14AAE301080605888EE185190B9A88 /* GestureInstructions-dummy.m */; };
 		D367BDA15F2723845B37DB739F9D4DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E4DF6414A9D37C8EA19F3C179043A387 /* UIViewController+GestureInstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2392DFAACBA392FE16765C8BFEE8132C /* UIViewController+GestureInstructor.swift */; };
+		E9873907FC5AE37EA7EDA8852A056B3C /* GIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82547D0A0D3D2AC01C91A96E0E27CBF1 /* GIView.swift */; };
+		EB0C5FB0B3CA0E830AE28EAACD5E9496 /* GIBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877AE0AEB55E98E820DF5D91CDE694D /* GIBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,41 +40,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00980F19297CBC9B28EE674BC3E322C1 /* Pods_GestureInstructions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GestureInstructions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2392DFAACBA392FE16765C8BFEE8132C /* UIViewController+GestureInstructor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+GestureInstructor.swift"; path = "GestureInstructions/Classes/UIViewController+GestureInstructor.swift"; sourceTree = "<group>"; };
+		00980F19297CBC9B28EE674BC3E322C1 /* Pods_GestureInstructions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GestureInstructions_Example.framework; path = "Pods-GestureInstructions_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A0AA93280180D58E5810F14F74AE15 /* Pods-GestureInstructions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GestureInstructions_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		26272EF0DBE1EC79D0DE9AF9B715530F /* GestureInstructor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureInstructor.swift; path = Sources/GestureInstructions/GestureInstructor.swift; sourceTree = "<group>"; };
+		2877AE0AEB55E98E820DF5D91CDE694D /* GIBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIBackgroundView.swift; path = Sources/GestureInstructions/GIBackgroundView.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3D2CC8CDF67BAE90FF26D0EDF31CBA3B /* GIBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIBackgroundView.swift; path = GestureInstructions/Classes/GIBackgroundView.swift; sourceTree = "<group>"; };
 		4300F0388EEC798597AE753518AD5372 /* Pods-GestureInstructions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GestureInstructions_Example-Info.plist"; sourceTree = "<group>"; };
-		4A18C98F9A0F2684A2EE7BAA1B4EC498 /* GestureInstructions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GestureInstructions.xcconfig; sourceTree = "<group>"; };
-		66E6452E2A12ED441DD4EE0CA2196EEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		685FB738481308569DB594DB43F34FB0 /* GestureInstructions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GestureInstructions-Info.plist"; sourceTree = "<group>"; };
+		636D9FA46B520C8B12ACA3A71605DF51 /* GestureInstructions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GestureInstructions-Info.plist"; sourceTree = "<group>"; };
 		69BBC4D99B6F431A885F9A26515D820F /* Pods-GestureInstructions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GestureInstructions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6B697855FD2329C9E1C8E69D0F1D9E89 /* GestureInstructions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GestureInstructions-prefix.pch"; sourceTree = "<group>"; };
+		6F705A761BE0E28A6C6CA38533BC2E52 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6FAD3602BF062C00DE709D3621BF839C /* Pods-GestureInstructions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GestureInstructions_Example.modulemap"; sourceTree = "<group>"; };
 		72738BAF40E05D3C2FFE25D070BC2C58 /* Pods-GestureInstructions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GestureInstructions_Tests-umbrella.h"; sourceTree = "<group>"; };
-		73761A69531502821B326C5AC6A51512 /* Pods_GestureInstructions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GestureInstructions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73761A69531502821B326C5AC6A51512 /* Pods_GestureInstructions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GestureInstructions_Tests.framework; path = "Pods-GestureInstructions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F54C77E297183404AE6FA2783B37F4 /* UIViewController+GestureInstructor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+GestureInstructor.swift"; path = "Sources/GestureInstructions/UIViewController+GestureInstructor.swift"; sourceTree = "<group>"; };
 		793E773B245FC18B9E7ED58679E7D33D /* Pods-GestureInstructions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GestureInstructions_Tests-dummy.m"; sourceTree = "<group>"; };
 		7B532A7EE1CBC5F1CADA4A5B6535B6FC /* Pods-GestureInstructions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GestureInstructions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E095D197C2757DC13A926D54ADF9CA4 /* Pods-GestureInstructions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GestureInstructions_Tests.modulemap"; sourceTree = "<group>"; };
 		7F6A8F12B1EC8413A30BF2E3194B66CC /* Pods-GestureInstructions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GestureInstructions_Example-frameworks.sh"; sourceTree = "<group>"; };
-		84A807E8B9760C4094807D52257AA8C4 /* GestureInstructions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GestureInstructions-dummy.m"; sourceTree = "<group>"; };
+		82547D0A0D3D2AC01C91A96E0E27CBF1 /* GIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIView.swift; path = Sources/GestureInstructions/GIView.swift; sourceTree = "<group>"; };
 		854FC31315F6493FD24720DEE7628EC1 /* Pods-GestureInstructions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GestureInstructions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		97EE187590D3E80EB3E2D29B01742155 /* Pods-GestureInstructions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GestureInstructions_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9B36CCC31F3F11426D1BCCFD8B188D27 /* GestureInstructions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GestureInstructions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A675A8AE252FED40A7FDFF111D09F73F /* GestureInstructions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GestureInstructions.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8860C8A47CD7FEB8C17C6FC5EEB8EEB /* Pods-GestureInstructions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GestureInstructions_Tests-Info.plist"; sourceTree = "<group>"; };
-		B3296F1CBF781E8689B2F192709112CE /* GestureInstructions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GestureInstructions-umbrella.h"; sourceTree = "<group>"; };
-		B39B32BF51343FE0A60E2EEEF06DD4E3 /* GestureInstructor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureInstructor.swift; path = GestureInstructions/Classes/GestureInstructor.swift; sourceTree = "<group>"; };
+		AA27361382F7E5C8AD9CA9558F0CA5EE /* GestureInstructions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GestureInstructions.modulemap; sourceTree = "<group>"; };
 		C128A7111C80C6C86E7DB84771344481 /* Pods-GestureInstructions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GestureInstructions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C532585C4C8DB82FAA52060EFBCDDA11 /* GestureInstructions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GestureInstructions-umbrella.h"; sourceTree = "<group>"; };
 		C6F0E471ABC5F6E91393F29CC9C25AA8 /* Pods-GestureInstructions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GestureInstructions_Example-umbrella.h"; sourceTree = "<group>"; };
+		C7B2F6E0F424447B567F52A3CA89C3AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C7ED81FBE9FBB18EF3DEBF6EF7472206 /* GestureInstructions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GestureInstructions.xcconfig; sourceTree = "<group>"; };
 		C9D2B0F213A47A2E3FD5D343A4D6A32A /* Pods-GestureInstructions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GestureInstructions_Example-dummy.m"; sourceTree = "<group>"; };
 		D98575A46043B99099867FE7495CABCA /* Pods-GestureInstructions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GestureInstructions_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E82E1348431C68A52519DA46DB258D9B /* GestureInstructions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GestureInstructions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA14AAE301080605888EE185190B9A88 /* GestureInstructions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GestureInstructions-dummy.m"; sourceTree = "<group>"; };
+		E03FFFF9025A14050CC4737734A5DD68 /* GestureInstructions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GestureInstructions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E82E1348431C68A52519DA46DB258D9B /* GestureInstructions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GestureInstructions.framework; path = GestureInstructions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E928820DF9A86B5F6DB0A382FF21089D /* Pods-GestureInstructions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GestureInstructions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7EF2AC58CBFA4143323170831ED0C97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		FA8E8B55A5B415F0479049BA9A1D6311 /* GIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIView.swift; path = GestureInstructions/Classes/GIView.swift; sourceTree = "<group>"; };
+		F29C91F1CFC48208BA80A9F356224896 /* GestureInstructions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GestureInstructions-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +105,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C6D92C3973E76472582F0E3DEDC280F /* GestureInstructions */ = {
+			isa = PBXGroup;
+			children = (
+				26272EF0DBE1EC79D0DE9AF9B715530F /* GestureInstructor.swift */,
+				2877AE0AEB55E98E820DF5D91CDE694D /* GIBackgroundView.swift */,
+				82547D0A0D3D2AC01C91A96E0E27CBF1 /* GIView.swift */,
+				74F54C77E297183404AE6FA2783B37F4 /* UIViewController+GestureInstructor.swift */,
+				EC273E445975073D60EEDBD747BF8F38 /* Pod */,
+				30F6B1A6E756AC03C2EADA120D03BC82 /* Support Files */,
+			);
+			name = GestureInstructions;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		30F6B1A6E756AC03C2EADA120D03BC82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA27361382F7E5C8AD9CA9558F0CA5EE /* GestureInstructions.modulemap */,
+				C7ED81FBE9FBB18EF3DEBF6EF7472206 /* GestureInstructions.xcconfig */,
+				DA14AAE301080605888EE185190B9A88 /* GestureInstructions-dummy.m */,
+				636D9FA46B520C8B12ACA3A71605DF51 /* GestureInstructions-Info.plist */,
+				F29C91F1CFC48208BA80A9F356224896 /* GestureInstructions-prefix.pch */,
+				C532585C4C8DB82FAA52060EFBCDDA11 /* GestureInstructions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GestureInstructions";
+			sourceTree = "<group>";
+		};
 		4D7FE9BCEF67EE11FF415FC9634C353C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7DC7176EFA2088CA25277B88F3EC7741 /* GestureInstructions */,
+				2C6D92C3973E76472582F0E3DEDC280F /* GestureInstructions */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -127,44 +155,6 @@
 			);
 			name = "Pods-GestureInstructions_Tests";
 			path = "Target Support Files/Pods-GestureInstructions_Tests";
-			sourceTree = "<group>";
-		};
-		7DC7176EFA2088CA25277B88F3EC7741 /* GestureInstructions */ = {
-			isa = PBXGroup;
-			children = (
-				B39B32BF51343FE0A60E2EEEF06DD4E3 /* GestureInstructor.swift */,
-				3D2CC8CDF67BAE90FF26D0EDF31CBA3B /* GIBackgroundView.swift */,
-				FA8E8B55A5B415F0479049BA9A1D6311 /* GIView.swift */,
-				2392DFAACBA392FE16765C8BFEE8132C /* UIViewController+GestureInstructor.swift */,
-				A9619FBE10BBB83C583A3DDDA1D68669 /* Pod */,
-				BD132606B36DBBA27AA6B79754296622 /* Support Files */,
-			);
-			name = GestureInstructions;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		A9619FBE10BBB83C583A3DDDA1D68669 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9B36CCC31F3F11426D1BCCFD8B188D27 /* GestureInstructions.podspec */,
-				F7EF2AC58CBFA4143323170831ED0C97 /* LICENSE */,
-				66E6452E2A12ED441DD4EE0CA2196EEC /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BD132606B36DBBA27AA6B79754296622 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A675A8AE252FED40A7FDFF111D09F73F /* GestureInstructions.modulemap */,
-				4A18C98F9A0F2684A2EE7BAA1B4EC498 /* GestureInstructions.xcconfig */,
-				84A807E8B9760C4094807D52257AA8C4 /* GestureInstructions-dummy.m */,
-				685FB738481308569DB594DB43F34FB0 /* GestureInstructions-Info.plist */,
-				6B697855FD2329C9E1C8E69D0F1D9E89 /* GestureInstructions-prefix.pch */,
-				B3296F1CBF781E8689B2F192709112CE /* GestureInstructions-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GestureInstructions";
 			sourceTree = "<group>";
 		};
 		BE8409587E9557D1416F74EDD4139390 /* Pods-GestureInstructions_Example */ = {
@@ -228,6 +218,16 @@
 				4DECEDA5D84CEBDAE4F7C8DAA2A39B21 /* Pods-GestureInstructions_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EC273E445975073D60EEDBD747BF8F38 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E03FFFF9025A14050CC4737734A5DD68 /* GestureInstructions.podspec */,
+				6F705A761BE0E28A6C6CA38533BC2E52 /* LICENSE */,
+				C7B2F6E0F424447B567F52A3CA89C3AC /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,11 +324,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					860DA7A38BF9307693F392B5FBB86200 = {
-						LastSwiftMigration = 1120;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -380,10 +375,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4E7E676D3179ABDC7E2A801C3956D32 /* GestureInstructions-dummy.m in Sources */,
-				3797FE5CB2FE28361860E864E3ECD056 /* GestureInstructor.swift in Sources */,
-				83681F4830C638237EF485F3C8C83C38 /* GIBackgroundView.swift in Sources */,
-				39F99430175CA490E4843D5BD43C0B99 /* GIView.swift in Sources */,
-				E4DF6414A9D37C8EA19F3C179043A387 /* UIViewController+GestureInstructor.swift in Sources */,
+				10B37311947BA520B7BB96B38CA0CAD7 /* GestureInstructor.swift in Sources */,
+				EB0C5FB0B3CA0E830AE28EAACD5E9496 /* GIBackgroundView.swift in Sources */,
+				E9873907FC5AE37EA7EDA8852A056B3C /* GIView.swift in Sources */,
+				AEDF92FA37B6EACE57CC43BDCCD0F1CC /* UIViewController+GestureInstructor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +584,39 @@
 			};
 			name = Debug;
 		};
+		510778675C32F56A18F802689393EAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7ED81FBE9FBB18EF3DEBF6EF7472206 /* GestureInstructions.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GestureInstructions/GestureInstructions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GestureInstructions/GestureInstructions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GestureInstructions/GestureInstructions.modulemap";
+				PRODUCT_MODULE_NAME = GestureInstructions;
+				PRODUCT_NAME = GestureInstructions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -642,48 +670,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		BE20F0299A557A28F059150A3FD6EA25 /* Release */ = {
+		D72EF368F32008CA5A38750F1DB064D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A18C98F9A0F2684A2EE7BAA1B4EC498 /* GestureInstructions.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GestureInstructions/GestureInstructions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GestureInstructions/GestureInstructions-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GestureInstructions/GestureInstructions.modulemap";
-				PRODUCT_MODULE_NAME = GestureInstructions;
-				PRODUCT_NAME = GestureInstructions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DA4DBAFF5A29FA7DA305E1B72468EAA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A18C98F9A0F2684A2EE7BAA1B4EC498 /* GestureInstructions.xcconfig */;
+			baseConfigurationReference = C7ED81FBE9FBB18EF3DEBF6EF7472206 /* GestureInstructions.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -762,8 +758,8 @@
 		829394BA6FC19F374DA58505E3E33C97 /* Build configuration list for PBXNativeTarget "GestureInstructions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA4DBAFF5A29FA7DA305E1B72468EAA0 /* Debug */,
-				BE20F0299A557A28F059150A3FD6EA25 /* Release */,
+				D72EF368F32008CA5A38750F1DB064D9 /* Debug */,
+				510778675C32F56A18F802689393EAB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GestureInstructions'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Framework for showing gesture hints'
 
   s.description      = <<-DESC
@@ -15,5 +15,5 @@ Framework to show gesture animations on top of the viewController.
   
   s.swift_version = '5.0'
   s.ios.deployment_target = '10.0'
-  s.source_files = 'GestureInstructions/Classes/**/*'
+  s.source_files = 'Sources/GestureInstructions/**/*'
 end
